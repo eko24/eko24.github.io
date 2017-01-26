@@ -1,0 +1,1 @@
+Repo of my personal blog which is based on Skinny Bones theme by by [Michael Rose](https://github.com/mmistakes)
