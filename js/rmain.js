@@ -8,6 +8,8 @@ $(document).ready(function(){
     // $('#masthead, #page-wrapper').toggleClass('slide');
     e.preventDefault();
   });
+
+   Gifffer();
 });
 
 // FitVids
