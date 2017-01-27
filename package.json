@@ -1,6 +1,9 @@
 {
   "version": "1.0.0",
   "name": "eko24",
+  "scripts": {
+
+  }
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-bower-task": "^0.4.0",

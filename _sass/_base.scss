@@ -255,7 +255,8 @@ hr {
 		position: absolute;
 		top: 0;
 		left: 0;
-		width: 2 * $column;
+		width: calc(8 * #{$column});
+    left: calc(50% - #{$column * 4});
 		height: 1px;
 		background: $border-color;
 	}

@@ -29,11 +29,11 @@ owner:
   name: Erik Kotsiuba
   email: eko24ive@gmail.com
   twitter: eko24ive
-  google: 
-    ad-client: UA-24534802-8
+  google:
+    ad-client:
     ad-slot:
-  bio:
-  avatar: bio-photo.jpg # 160x160 px image for author byline
+  bio: A web developer who loves JavaScript, responsive stuff, and cool NodeJS things
+  avatar: assets/bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname:
 
 

@@ -6,5 +6,5 @@ tags: [html]
 comments: false
 excerpt: "A ton of text to test readability."
 image:
-  teaser: sublime3.jpg
+  teaser: post-thumbnails/sublime3.jpg
 ---
