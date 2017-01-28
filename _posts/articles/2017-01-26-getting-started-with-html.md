@@ -13,26 +13,7 @@ image:
 
 {% include toc.html %}
 
-<!-- 
-**Inverse Noticed:** `.notice-invderse` narwhal[^footnote] Maecenas ornare tortor. Donec sed tellus [eget sapien fringilla](#) nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
-{: .notice-inverse}
-
-[^footnote]: Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney's.
-
-**Info Notice:** `.notice-info` [Maecenas ornare tortor](#). Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
-{: .notice-info}
-
-**Warning Notice:** `.notice-warning` Maecenas ornare tortor. Donec sed [tellus eget](#) sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
-{: .notice-warning}
-
-**Danger Notice:** `.notice-danger` Maecenas ornare tortor.[ Donec sed tellus](#) eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
-{: .notice-danger}
-
-**Success Notice:** `.notice-success` Maecenas ornare tortor. Donec sed tellus eget [sapien fringilla](#) nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
-{: .notice-success} 
--->
-
-# What is this
+# What is HTML
 
 Well HyperText Markup Language aka HTML is a language for creating web pages.  When you surfing through the internet and visiting dozens websites with your browser you actually don't see that HTML-code, but the way how browser "translates" it for you. Every web page you stumble upon on the internet contain HTML code. Each image, video and music file are brought to you with help of HTML. Let's take a better look on HTML and from what it's made.
 
@@ -244,7 +225,26 @@ Let's try something more interesting than just coloring text. Every webpage have
 Link could be created this way:
 
 ```html
-  <a href="http://google.com">I'll take you to the</a>
+<a href="http://google.com">I'll take you to the</a>
+```
+
+Link have required `href` attribute which tells where it leads, and between `<a>...</a>` tags you write text which be displayed as link, like this:
+
+<iframe width="100%" height="300" src="//jsfiddle.net/eko24ive/jqj4bLt6/embedded/html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+---
+
+Also if you create another html file e.g. `second-page.html` near your `index.html` file 
+
+![Two html files in same folder]( {{site.baseurl}}/images/post/getting-started-with-html/another-file-created.png )
+
+This way you can create link to `second-page.html` :
+
+```html
+<a href="./second-page.html">Link to second page</a>
 ```
 
 # Conclusion
+
+Phew, this was a long ride, but you did it !
+At 

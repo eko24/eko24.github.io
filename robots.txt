@@ -12,5 +12,6 @@ Disallow: images/
 Disallow: _includes/
 Disallow: _site/
 Disallow: css/
+Disallow: 404.html
 
 Sitemap: https://eko24.github.io/sitemap

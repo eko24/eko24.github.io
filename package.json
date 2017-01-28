@@ -2,8 +2,9 @@
   "version": "1.0.0",
   "name": "eko24",
   "scripts": {
-
-  }
+  	"serve": "npm run build && bundle exec jekyll serve -H 127.0.0.1",
+  	"build": "bundle exec jekyll build"
+  },
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-bower-task": "^0.4.0",
