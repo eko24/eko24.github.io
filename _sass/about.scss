@@ -1,0 +1,10 @@
+#points-of-interests {
+  margin: $gutter/2 0;
+  ul {
+    @include media($medium) {
+      display: inline-block;
+      width: 30%;
+      margin: 0 1.5%;
+    }
+  }
+}

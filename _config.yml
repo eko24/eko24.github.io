@@ -5,6 +5,7 @@ description: "Tiny dev thoughts of big dev things."
 logo: assets/logo.png
 teaser: # 400x250 px default teaser image used in image archive grid
 locale: en
+repository_url: https://github.com/eko24/eko24.github.io
 url:
 feed:
   path: atom.xml
@@ -25,6 +26,7 @@ gems:
 
 
 # Site owner
+
 owner:
   name: Erik Kotsiuba
   email: eko24ive@gmail.com

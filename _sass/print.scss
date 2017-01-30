@@ -1,0 +1,21 @@
+@media print {
+  #share-buttons,
+  #site-footer nav.bottom-menu,
+  #edit-page,
+  [data-gifffer-alt],
+  #js-menu-trigger, #js-menu
+  { display: none !important; }
+
+  #site-footer nav.bottom-menu {
+    margin-top: 0 !important;
+  }
+
+  figure, figcaption {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav.toc {
+    padding: 0 $gutter/2 ; // add white space for smaller screens
+  }
+}

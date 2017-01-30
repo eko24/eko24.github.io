@@ -23,8 +23,11 @@ layout: default
 				<footer class="page-footer">
 					{% if page.categories %}{% include page-author.html %}{% endif %}
 					{% if page.share != false %}{% include share-this.html %}{% endif %}
-					{% include page-meta.html %}
 				</footer><!-- /.footer -->
+        {% if page.edit != false %}{% include edit-page.html %}{% endif %}
+        <footer>
+          {% include page-meta.html %}
+        </footer>
 				<aside>
 					{% if page.comments == true %}{% include comments.html %}{% endif %}
 				</aside>

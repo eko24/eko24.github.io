@@ -8,14 +8,14 @@
 
 .btn {
 	display: inline-block;
-	padding: 8px 20px;
+	padding: 2px 8px;
 	@include font-size(14);
 	font-family: $alt-font;
 	background-color: $primary-color;
 	color: $white;
 	text-decoration: none;
 	border: 0 !important;
-	border-radius: 10 * $border-radius;
+	border-radius: 1 * $border-radius;
 	@include transition(background 0.2s, border 0.2s);
 	&:hover {
 		color: $white;
@@ -25,6 +25,10 @@
 		// move button slightly on click
 		@include transform(translateY(1px));
 	}
+
+  & .fa {
+    margin-right: 5px;
+  }
 }
 
 /*
@@ -126,7 +130,8 @@
 		(tumblr, $tumblr-color),
 		(twitter, $twitter-color),
 		(vimeo, $vimeo-color),
-		(youtube, $youtube-color);
+		(youtube, $youtube-color),
+		(email, $email-color);
 	@extend .btn-inverse;
 	color: $text-color !important;
 	&:visited,

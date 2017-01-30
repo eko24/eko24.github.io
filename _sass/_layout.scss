@@ -175,6 +175,9 @@
       .toc li > a {
         border-bottom-width: 0;
       }
+      .toc li:last-child {
+        border-bottom-width: 0;
+      }
 			.page-footer,
 			.pagination {
 				@include fill-parent;

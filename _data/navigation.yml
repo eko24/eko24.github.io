@@ -1,6 +1,11 @@
 # Site navigation links
 
-# - title: Articles
-#   url: /articles
-#   excerpt: A collection of thoughts, inspiration, mistakes, and other minutia.
-#   image: assets/image-articles.jpg
+ - title: Articles
+   url: /articles
+   excerpt: A collection of thoughts, inspiration, mistakes, and other minutia.
+   image: assets/image-articles.jpg
+
+ - title: About me
+   url: /about
+   excerpt: A collection of thoughts, inspiration, mistakes, and other minutia.
+   image: assets/bio-photo.jpg

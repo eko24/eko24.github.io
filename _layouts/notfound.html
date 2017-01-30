@@ -3,9 +3,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="refresh" content="5; url=/">
     <title>404 Not Found</title>
-    
+
 
     <style type="text/css">
       html, body {
@@ -23,9 +22,13 @@
         background-size: cover;
         background-position: center;
       }
-      a {
-        text-decoration: none;
+      a, a:visited, a:focus, a:hover {
+        text-decoration: underline;
+        color: #fff;
+        outline: 0;
       }
+
+
       h1 {
         font-family: monospace;
         text-transform: uppercase;
@@ -37,10 +40,6 @@
         font-size: 44px;
         font-weight: 900;
         color: #fff;
-        cursor: pointer;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
       }
 
     </style>
@@ -48,15 +47,13 @@
   </head>
 
   <body id="js-body">
-    <a href="/">
       <h1>
           ow, looks like you get lost<br/>
-          let me send you back
+          would you kindly visit <a href="/">homepage</a> ?
       </h1>
-    </a>
-      
-      
-     
+
+
+
 
     <script src="https://eko24.github.io/js/plugins/ga.js"></script>
 

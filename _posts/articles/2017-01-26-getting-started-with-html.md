@@ -9,13 +9,16 @@ image:
   teaser: post-thumbnails/html-getting-started.jpg
 ---
 
+
+
 ![HTML code screenshot for heading]({{ site.baseurl }}/images/post/getting-started-with-html/html.jpg){:class="come-in"}
 
 {% include toc.html %}
 
+
 # What is HTML
 
-Well HyperText Markup Language aka HTML is a language for creating web pages.  When you surfing through the internet and visiting dozens websites with your browser you actually don't see that HTML-code, but the way how browser "translates" it for you. Every web page you stumble upon on the internet contain HTML code. Each image, video and music file are brought to you with help of HTML. Let's take a better look on HTML and from what it's made.
+Well HyperText Markup Language aka HTML is a language for creating web pages.  When you are surfing through the internet and visiting dozens websites with your browser you actually don't see that HTML-code, but the way how browser "translates" it for you. Every web page you come across on the internet contains HTML code. Each image, video and music file are brought to you with help of HTML. Let's take a better look on HTML and from what it's made.
 
 
 _For the sake of simplicity from henceforth and further I'll be typing "html" abbreviation in lower case_
@@ -30,6 +33,7 @@ If you haven't downloaded it yet - you can do this on their website, there are i
 But remember that you always can use editor which you wan't to - this is totally okay !
 
 ![Gif of creating html file](){:data-gifffer="{{ site.baseurl }}/images/post/getting-started-with-html/Sublime_Create_Html_File.gif"}
+{:data-gifffer-alt="Gif of creating html file"}
 
 Remember to save your html files with `.html` extension !
 {: .notice-info}
@@ -37,10 +41,12 @@ Remember to save your html files with `.html` extension !
 Than if we drag and drop our newly crafted html file into the browser we'll see nothing but and empty page
 
 ![Gif of dragging html file to the browser](){:data-gifffer="{{ site.baseurl }}/images/post/getting-started-with-html/nuKHozv - Imgur.gif"}
+{:data-gifffer-alt="Gif of dragging html file to the browser"}
 
-And the other way you can do it - is by right-click on html file and open it with browser you prefer:
+And the other way you can do it - is by right-click on html file and open it with browser you prefer
 
 ![Gif of opening html file in browser with right click](){:data-gifffer="{{ site.baseurl }}/images/post/getting-started-with-html/ZCfR7lY - Imgur.gif"}
+{:data-gifffer-alt="Gif of opening html file in browser with right click"}
 
 
 
@@ -102,7 +108,7 @@ And then I'll save changed I did by pressing hotkey `Ctrl + S` - which as you ma
 Now we can refresh browser page by hitting `F5` in the browser, and look - we now have a name for our website !
 
 <figure>
-	<a href="{{ site.baseurl }}/images/post/getting-started-with-html/title-tag-changes.png"><img src="{{ site.baseurl }}/images/post/getting-started-with-html/title-tag-changes.png"></a>
+	<img src="{{ site.baseurl }}/images/post/getting-started-with-html/title-tag-changes.png" alt="simple page">
 	<figcaption>Easy, isn't it ?</figcaption>
 </figure>
 
