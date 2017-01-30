@@ -4,9 +4,9 @@ title: "Getting started with HTML"
 categories: articles
 tags: [html]
 comments: false
-excerpt: "A ton of text to test readability."
+excerpt: "Get started with web's markup language and learn how to create webpage."
 image:
-  teaser: post-thumbnails/480px-HTML5_Badge.jpg
+  teaser: post-thumbnails/html-getting-started.jpg
 ---
 
 ![HTML code screenshot for heading]({{ site.baseurl }}/images/post/getting-started-with-html/html.jpg){:class="come-in"}
@@ -41,7 +41,6 @@ Than if we drag and drop our newly crafted html file into the browser we'll see 
 And the other way you can do it - is by right-click on html file and open it with browser you prefer:
 
 ![Gif of opening html file in browser with right click](){:data-gifffer="{{ site.baseurl }}/images/post/getting-started-with-html/ZCfR7lY - Imgur.gif"}
-
 
 
 
@@ -246,5 +245,8 @@ This way you can create link to `second-page.html` :
 
 # Conclusion
 
-Phew, this was a long ride, but you did it !
-At 
+Phew, this was a long ride, but you did it !  
+At this point you now how to create formatted text, insert links, get text colored and use huge headlines.  
+There's more to come - in my further posts I'll show you some other tags, techniques and Sublime Text 3 features.
+
+Stay tuned and thank you !  
