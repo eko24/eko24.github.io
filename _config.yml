@@ -35,7 +35,7 @@ owner:
     ad-client:
     ad-slot:
   bio: A web developer who loves JavaScript, responsive stuff, and cool NodeJS things
-  avatar: assets/bio-photo.jpg # 160x160 px image for author byline
+  avatar: assets/bio-photo.png # 160x160 px image for author byline
   disqus-shortname:
 
 

@@ -25,8 +25,10 @@ excerpt: "Get started with web's markup language and learn how to create webpage
 </div>
 <div class="author-content">
 	<h3 class="author-name">Hi There,</h3>
-	<p class="author-bio">My name is Erik. I'm {{ site.time | date: '%Y' | minus: 1996 }} years old web developer from Ukraine.  
-                        I've discovered development for moon ago and this is still most exciting thing in my life.</p>
+	<p class="author-bio">
+    My name is Erik. I'm {{ site.time | date: '%Y' | minus: 1996 }} years old web developer from Ukraine.  
+    I've discovered development for moon ago and this is still most exciting thing in my life.
+  </p>
 </div>
 
 

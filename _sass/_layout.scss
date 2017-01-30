@@ -338,6 +338,17 @@
 
 #site-footer {
 	@include outer-container;
+
+  @include media($micro) {
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+
+  @include media($small) {
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+
 	margin-top: (3 * (0px + $doc-line-height));
 	margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
 	padding-bottom: $gutter;
@@ -351,4 +362,6 @@
 			text-decoration: none;
 		}
 	}
+
+
 }
