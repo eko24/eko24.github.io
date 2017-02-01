@@ -1,4 +1,7 @@
 // Off Canvas Sliding
+$(window).load(function() {
+  $("#preloader").fadeOut("normal");
+})
 $(document).ready(function(){
   // Menu button click
   // $('#js-menu-trigger,#js-menu-screen').on('click touchstart', function(e){
