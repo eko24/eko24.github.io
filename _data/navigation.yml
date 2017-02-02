@@ -8,3 +8,8 @@
  - title: About me
    url: /about
    image: assets/bio-photo.png
+
+
+ - title: Search
+   url: /search
+   showSide: false

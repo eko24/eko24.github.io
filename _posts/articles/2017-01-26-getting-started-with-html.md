@@ -153,10 +153,8 @@ Feel free to play with different size of headlines and don't forget to save chan
 It's time to get familiar with text formatting in html, you'll learn how create bold, italic and strike through text.  
 Here is our heroes:
 
-| What it does   |   Tag code   |
-|----------------|--------------|
-| bold           | `<b>...</b>` |
-| italic         | `<i>...</i>` |
+| bold text      | `<b>...</b>` |
+| italic text    | `<i>...</i>` |
 | strike through | `<s>...</s>` |
 
 

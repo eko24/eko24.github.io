@@ -27,7 +27,7 @@ excerpt: "Get started with web's markup language and learn how to create webpage
 	<h3 class="author-name">Hi There,</h3>
 	<p class="author-bio">
     My name is Erik. I'm {{ site.time | date: '%Y' | minus: 1996 }} years old web developer from Ukraine.  
-    I've discovered development for moon ago and this is still most exciting thing in my life.
+    Discovered development for many moons ago and this is still most exciting thing in my life.
   </p>
 </div>
 
@@ -65,4 +65,16 @@ Also, you can find me on these websites if case you want to contact me:
   <a href="https://ua.linkedin.com/in/erikkotsuba" class="btn-social linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
   <a href="https://twitter.com/eko24ive" class="btn-social twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
   <a href="mailto:eko24ive@gmail.com" class="btn-social email"><i class="fa fa-envelope-o" aria-hidden="true"></i> E-mail</a>
+</p>
+
+<hr/>
+
+<p>
+  I'd like to mention this repos which code is used on this blog:
+  <ul>
+    <li><a href="https://github.com/jekyll/jekyll">Jekyll</a> - static site generator in Ruby</li>
+    <li><a href="https://github.com/mmistakes/skinny-bones-jekyll">Skinny Bones</a> - theme for Jekyll</li>
+    <li><a href="https://github.com/krasimir/gifffer">Giffer</a> - play/stop GIF plugin</li>
+    <li><a href="https://github.com/SamHerbert/SVG-Loaders">SVG-Loaders</a> - pack of neat svg loaders</li>
+  </ul>
 </p>

@@ -4,6 +4,7 @@
 
 .wrap {
   @include outer-container;
+  min-height: 30em;
 }
 
 .come-in {
