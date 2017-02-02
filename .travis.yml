@@ -6,6 +6,7 @@ rvm:
 script: bundle exec jekyll build
 
 before_deploy:
+  - echo GITHUB_URL
   - chmod +x deploy.sh
 
 deploy:
