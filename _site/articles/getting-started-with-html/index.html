@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Getting started with HTML • Erik Kotsiuba</title>
+  <meta name="description" content="Get started with web's markup language and learn how to create webpage.">
+  <meta name="keywords" content="html">
+  
+  	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="Getting started with HTML">
+	<meta name="twitter:description" content="Get started with web's markup language and learn how to create webpage.">
+	<meta name="twitter:site" content="@eko24ive">
+	<meta name="twitter:creator" content="@eko24ive">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image" content="/images/assets/logo.png">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Getting started with HTML">
+  <meta property="og:image" content="/images/assets/logo.png" />
+  <meta property="og:image:secure_url" content="/images/assets/logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="120" />
+  <meta property="og:image:height" content="120" />
+	<meta property="og:description" content="Get started with web's markup language and learn how to create webpage.">
+	<meta property="og:url" content="/articles/getting-started-with-html/">
+	<meta property="og:site_name" content="Erik Kotsiuba">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <link rel="canonical" href="/articles/getting-started-with-html/">
+
+  <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Erik Kotsiuba Atom Feed">
+  <link href="/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=0.7, maximum-scale=0.7, user-scalable=no" />
+  <meta http-equiv="cleartype" content="on">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <!-- HTML5 Shiv and Media Query Support for IE -->
+  <!--[if lt IE 9]>
+  <script src="/js/vendor/html5shiv.min.js"></script>
+  <script src="/js/vendor/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+
+<body id="js-body">
+<!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+<div id="preloader">
+  <img src="/images/assets/ball-triangle.svg" width="100"/>
+</div>
+
+<header id="masthead">
+  <div class="inner-wrap">
+    <div class="logo"></div>
+    <a href="/" class="site-title">Erik Kotsiuba</a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<li class="home"><a href="/">Erik Kotsiuba</a></li>
+	
+    
+    <li><a href="/articles" >Articles</a></li>
+  
+    
+    <li><a href="/about" >About me</a></li>
+  
+    
+    <li><a href="/search" >Search</a></li>
+  
+</ul>
+    </nav>
+  </div>
+</header>
+
+<nav role="navigation" id="js-menu" class="sliding-menu-content">
+  <h5>Erik Kotsiuba <span></span></h5>
+  <ul class="menu-item">
+    
+      
+        <li>
+          <a href="/articles">
+            <img src="/images/assets/image-articles.jpg" alt="teaser" class="teaser">
+            <div class="title">Articles</div>
+            <p class="excerpt">A collection of thoughts, inspiration, mistakes, and other minutia.</p>
+          </a>
+        </li>
+      
+    
+      
+        <li>
+          <a href="/about">
+            <img src="/images/assets/bio-photo.png" alt="teaser" class="teaser">
+            <div class="title">About me</div>
+            
+          </a>
+        </li>
+      
+    
+      
+    
+  </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+  <span class="nav-lines"></span>
+</button>
+
+<div id="js-menu-screen" class="menu-screen"></div>
+
+
+<div id="page-wrapper">
+  <div id="main" role="main">
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		
+    <div class="page-title">
+      <h1>Getting started with HTML</h1>
+    </div>
+		
+
+		
+  <nav class="breadcrumbs">
+    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+      <a href="" itemprop="url">
+        <span itemprop="title">Home</span>
+      </a> › 
+    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+      <a href="/articles/" itemprop="url">
+        <span itemprop="title">Articles</span>
+      </a>
+    </span>
+  </nav><!-- /.breadcrumbs -->
+
+
+		<div class="inner-wrap">
+			<div id="content" class="page-content" itemprop="articleBody">
+				<p><img src="/images/post/getting-started-with-html/html.jpg" alt="HTML code screenshot for heading" class="come-in" /></p>
+
+<nav class="toc">
+<ul id="markdown-toc">
+  <li><a href="#what-is-html" id="markdown-toc-what-is-html">What is HTML</a></li>
+  <li><a href="#first-page" id="markdown-toc-first-page">First page</a></li>
+  <li><a href="#basic-structure" id="markdown-toc-basic-structure">Basic structure</a></li>
+  <li><a href="#the-tags" id="markdown-toc-the-tags">The tags</a></li>
+  <li><a href="#watch-the-changes" id="markdown-toc-watch-the-changes">Watch the changes</a></li>
+  <li><a href="#headlines" id="markdown-toc-headlines">Headlines</a></li>
+  <li><a href="#text-formatting" id="markdown-toc-text-formatting">Text formatting</a></li>
+  <li><a href="#text-coloring" id="markdown-toc-text-coloring">Text coloring</a></li>
+  <li><a href="#links" id="markdown-toc-links">Links</a></li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+</ul>
+
+</nav>
+
+<h1 id="what-is-html">What is HTML</h1>
+
+<p>Well HyperText Markup Language aka HTML is a language for creating web pages.  When you are surfing through the internet and visiting dozens websites with your browser you actually don’t see that HTML-code, but the way how browser “translates” it for you. Every web page you come across on the internet contains HTML code. Each image, video and music file are brought to you with help of HTML. Let’s take a better look on HTML and from what it’s made.</p>
+
+<p><em>For the sake of simplicity from henceforth and further I’ll be typing “html” abbreviation in lower case</em></p>
+
+<h1 id="first-page">First page</h1>
+
+<p>Les’s create our first html page !</p>
+
+<p>I’ll be using <a href="https://www.sublimetext.com/3">Sublime Text 3</a> to create files and edit code. 
+If you haven’t downloaded it yet - you can do this on their website, there are installations for Windows, Linux and OS X.<br />
+But remember that you always can use editor which you wan’t to - this is totally okay !</p>
+
+<p data-gifffer-alt="Gif of creating html file"><img src="" alt="Gif of creating html file" data-gifffer="/images/post/getting-started-with-html/Sublime_Create_Html_File.gif" /></p>
+
+<p class="notice-info">Remember to save your html files with <code class="highlighter-rouge">.html</code> extension !</p>
+
+<p>Than if we drag and drop our newly crafted html file into the browser we’ll see nothing but and empty page</p>
+
+<p data-gifffer-alt="Gif of dragging html file to the browser"><img src="" alt="Gif of dragging html file to the browser" data-gifffer="/images/post/getting-started-with-html/nuKHozv - Imgur.gif" /></p>
+
+<p>And the other way you can do it - is by right-click on html file and open it with browser you prefer</p>
+
+<p data-gifffer-alt="Gif of opening html file in browser with right click"><img src="" alt="Gif of opening html file in browser with right click" data-gifffer="/images/post/getting-started-with-html/ZCfR7lY - Imgur.gif" /></p>
+
+<h1 id="basic-structure">Basic structure</h1>
+<p>Even the simplest html page have some requirements to its structure.<br />
+Long story short, let’s look at it:</p>
+
+<div id="sample-html-code">
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;title&gt;&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span></code></pre></figure>
+
+</div>
+
+<p>Right, so this is the very basic html structure. You might be surprised with all that weird brackets and words - no problem, let’s split them up !</p>
+
+<h1 id="the-tags">The tags</h1>
+
+<p>First what we see is <code class="highlighter-rouge"><span class="cp">&lt;!DOCTYPE html&gt;</span></code> - shortly, this how we describe the html that will be used in our page. You can get more info about it on <a href="http://stackoverflow.com/a/414993/3472702">this</a> StackOverflow answer.</p>
+
+<p>Then we see <code class="highlighter-rouge"><span class="nt">&lt;html&gt;</span></code> tag, but please notice that we have same tag with slash in the end: <code class="highlighter-rouge">&lt;/html&gt;</code>.<br />
+This is how most html tags works - they get “opened” <code class="highlighter-rouge"><span class="nt">&lt;html&gt;</span></code> and closed <code class="highlighter-rouge">&lt;/html&gt;</code>. We open them by putting in arrow brackets<code class="highlighter-rouge">&lt;like this&gt;</code> and close it to with arrow brackets but we add slash symbol: <code class="highlighter-rouge">&lt;/like this&gt;</code>.</p>
+
+<p>But keep in mind that html have some self closing tags, which we don’t have to close, I’ll tell you about them a bit later.</p>
+
+<p>One more thing about html tags is that they can be nested, which means we can put tag in the tag in the tag in the tag…<br />
+You’ve got the idea.</p>
+
+<p>So, everything what we’ll put between html tag is going to be processed with our browser.
+And and this point we just got ourselves to our first nested tag -  <code class="highlighter-rouge">&lt;head&gt;</code>.
+Head tag it is just like <code class="highlighter-rouge"><span class="nt">&lt;html&gt;</span></code> tag - not self closing, which means we have to close it on our own.</p>
+
+<p>In html language <code class="highlighter-rouge">&lt;head&gt;</code> is responsible for many things like connecting style files and other code to our page and “talking” with browser.</p>
+
+<p>And for now we only need the only one tag in head which is <code class="highlighter-rouge">&lt;title&gt;</code>.
+On <a href="http://www.w3schools.com/tags/tag_title.asp">W3C</a> page we can see that</p>
+
+<blockquote>
+  <p>The <code class="highlighter-rouge">&lt;title&gt;</code> element defines a title in the browser toolbar</p>
+</blockquote>
+
+<p>And this is 100% right. Whe we put some text in the <code class="highlighter-rouge">&lt;title&gt;</code> tag we see this text in the browser tab name.<br />
+Let’s add some name for our webpage.</p>
+
+<h1 id="watch-the-changes">Watch the changes</h1>
+
+<p>So I wan’t you to put some text in <code class="highlighter-rouge">&lt;title&gt;&lt;/title&gt;</code> tag, I’ll do it like this:</p>
+
+<p><code class="highlighter-rouge">&lt;title&gt;My Website&lt;/title&gt;</code></p>
+
+<p>And then I’ll save changed I did by pressing hotkey <code class="highlighter-rouge">Ctrl + S</code> - which as you may know saves changes we did to file.<br />
+Now we can refresh browser page by hitting <code class="highlighter-rouge">F5</code> in the browser, and look - we now have a name for our website !</p>
+
+<figure>
+	<img src="/images/post/getting-started-with-html/title-tag-changes.png" alt="simple page" />
+	<figcaption>Easy, isn't it ?</figcaption>
+</figure>
+
+<p class="notice-info"><span class="fa-stack fa-lg">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-info fa-stack-1x info-text"></i>
+</span>
+Don’t forget to save changes you did before you refresh browser page</p>
+
+<h1 id="headlines">Headlines</h1>
+
+<p>Now, when we get familiar with editing html code let’s move next to the <code class="highlighter-rouge">&lt;body&gt;</code> tag.<br />
+Usually all text and tags you place inside body can be seen by you or other users, except some cases when we wan’t to excplitcly hide our content.</p>
+
+<p>So let’s begin with headlines. Headlines are used to define and divide sections of your website, they appear as big or even huge text, just like these which you can see in this post.</p>
+
+<p>There are six headline tags in html - <code class="highlighter-rouge">&lt;h1&gt;...&lt;/h1&gt;</code> is the biggest, <code class="highlighter-rouge">&lt;h6&gt;...&lt;/h6&gt;</code> is smallest, <code class="highlighter-rouge">&lt;h3&gt;...&lt;/h3&gt;</code> and <code class="highlighter-rouge">&lt;h4&gt;...&lt;/h4&gt;</code> are medium sized.</p>
+
+<p>I’ll create huge headline with “Welcome to my website” text, so now my code looks like this:</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;title&gt;</span>My Website<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Welcome to my website<span class="nt">&lt;/h1&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre>
+</div>
+
+<p>And this is new look of my webpage</p>
+
+<p><img src="/images/post/getting-started-with-html/first_headline.png" alt="Webpage with added headline" /></p>
+
+<p>Feel free to play with different size of headlines and don’t forget to save changes before refreshing your page and don’t forget to <em>&lt;/close&gt;</em> tags !</p>
+
+<h1 id="text-formatting">Text formatting</h1>
+
+<p>It’s time to get familiar with text formatting in html, you’ll learn how create bold, italic and strike through text.<br />
+Here is our heroes:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>bold text</td>
+      <td><code class="highlighter-rouge">&lt;b&gt;...&lt;/b&gt;</code></td>
+    </tr>
+    <tr>
+      <td>italic text</td>
+      <td><code class="highlighter-rouge">&lt;i&gt;...&lt;/i&gt;</code></td>
+    </tr>
+    <tr>
+      <td>strike through</td>
+      <td><code class="highlighter-rouge">&lt;s&gt;...&lt;/s&gt;</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Let’s add this tags into the body with some text, we’ll see them on the page.</p>
+
+<p class="notice-info">From now I’ll be using another presentation mode, so you have to click “Result” to see, ehm, result.</p>
+
+<iframe width="100%" height="300" src="//jsfiddle.net/eko24ive/bLbjqgef/2/embedded/html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+<p>You see that text have different styles, but as you might notice - in html we wrote each tag on new line, but in the browser they are all on the same line, not okay !</p>
+
+<p>The reason this happens is because browser ignores our line breaks, but don’t worry, html have appropriate solution for this:<br />
+Our day saver is <code class="highlighter-rouge">&lt;br/&gt;</code> tag which stands for “break line”, and the other curious thing about it - <code class="highlighter-rouge">&lt;br/&gt;</code> is self closing tag. 
+I guess it is better just show you how it works:</p>
+
+<iframe width="100%" height="300" src="//jsfiddle.net/eko24ive/7rem4g3o/1/embedded/html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+<p>Much better isn’t it ?</p>
+
+<hr />
+
+<p>Well one thing I wan’t to clarify about self closing tags - is we actually “close” them but in another way. All we do is just adding slash symbol before right-looking arrow bracket, like <code class="highlighter-rouge">&lt;this/&gt;</code></p>
+
+<hr />
+
+<p>Try to place <code class="highlighter-rouge">&lt;br/&gt;</code> in different places in the body so you can get familiar with it:</p>
+
+<figure>
+  <iframe width="100%" height="300" src="//jsfiddle.net/eko24ive/7rem4g3o/3/embedded/html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+	<figcaption>Yes, you can use as much line breakes as you want to !</figcaption>
+</figure>
+
+<h1 id="text-coloring">Text coloring</h1>
+
+<p>Now when we know how to create html page, add some styling to our text, and write headlines of all sizes let’s play with texts color !</p>
+
+<p>For this purpose we have tag called <code class="highlighter-rouge">&lt;font&gt;...&lt;font&gt;</code> which fortunately have comprehensive name.<br />
+But nothing will happen if you’ll just wrap your text with font tag:</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;font&gt;</span>You come to me, and you say: "Don Fonteone, color my text." But you don't ask with respect<span class="nt">&lt;/font&gt;</span>
+</code></pre>
+</div>
+
+<p>Right, we need to tell that we want colored text and specify the color we want.<br />
+In html this kind of things are possible with… attributes !</p>
+
+<iframe width="100%" height="300" src="//jsfiddle.net/eko24ive/3cxvfL1w/1/embedded/html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+<p>As you can see we use color attribute <code class="highlighter-rouge">&lt;font color="red"&gt;This is much better&lt;/font&gt;</code> for the font tag.<br />
+Attributes are placed in the opening tag, we don’t write them in the closing tag and certainly don’t close attributes, keep that in mind.</p>
+
+<p>Attributes, themselves, have really simple structure they have <code class="highlighter-rouge">name="and value"</code>, nothing complex.</p>
+
+<p>Oh, remember that tags can be nested ? Oh hell yeah they can !</p>
+
+<iframe width="100%" height="300" src="//jsfiddle.net/eko24ive/eL62w8az/embedded/html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+<p>But of course red color isn’t the only one you can use, you might type green, blue, purple - any color you want to.<br />
+And here is link to the <a href="http://www.w3schools.com/colors/colors_names.asp">list of color names</a> on W3C school website try some of them !</p>
+
+<figure>
+  <iframe width="100%" height="300" src="//jsfiddle.net/eko24ive/nsy1h4ow/embedded/html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+	<figcaption>It isn't hard when it comes to coloring Mika's lyrics !</figcaption>
+</figure>
+
+<h1 id="links">Links</h1>
+
+<p>Let’s try something more interesting than just coloring text. Every webpage have links, which brings you to other website in the internet, so let’s add some !</p>
+
+<p>Link could be created this way:</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"http://google.com"</span><span class="nt">&gt;</span>I'll take you to the<span class="nt">&lt;/a&gt;</span>
+</code></pre>
+</div>
+
+<p>Link have required <code class="highlighter-rouge">href</code> attribute which tells where it leads, and between <code class="highlighter-rouge">&lt;a&gt;...&lt;/a&gt;</code> tags you write text which be displayed as link, like this:</p>
+
+<iframe width="100%" height="300" src="//jsfiddle.net/eko24ive/jqj4bLt6/embedded/html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+<hr />
+
+<p>Also if you create another html file e.g. <code class="highlighter-rouge">second-page.html</code> near your <code class="highlighter-rouge">index.html</code> file</p>
+
+<p><img src="/images/post/getting-started-with-html/another-file-created.png" alt="Two html files in same folder" /></p>
+
+<p>This way you can create link to <code class="highlighter-rouge">second-page.html</code> :</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"./second-page.html"</span><span class="nt">&gt;</span>Link to second page<span class="nt">&lt;/a&gt;</span>
+</code></pre>
+</div>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Phew, this was a long ride, but you did it !<br />
+At this point you now how to create formatted text, insert links, get text colored and use huge headlines.<br />
+There’s more to come - in my further posts I’ll show you some other tags, techniques and Sublime Text 3 features.</p>
+
+<p>Stay tuned and thank you !</p>
+
+				<hr />
+				<footer class="page-footer">
+					
+
+<div class="author-image">
+	<img src="/images/assets/bio-photo.png" alt="Erik Kotsiuba">
+</div><!-- ./author-image -->
+<div class="author-content">
+	<h3 class="author-name" >Written by <span itemprop="author">Erik Kotsiuba</span></h3>
+	<p class="author-bio">A web developer who loves JavaScript, responsive stuff, and cool NodeJS things</p>
+</div><!-- ./author-content -->
+					<div class="inline-btn" id="share-buttons">
+	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Getting%20started%20with%20HTML&amp;url=/articles/getting-started-with-html/&amp;via=eko24ive" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
+	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=/articles/getting-started-with-html/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
+	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=/articles/getting-started-with-html/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
+</div><!-- /.share-this -->
+
+				</footer><!-- /.footer -->
+        <footer id="edit-page">
+  <p class="notice-inverse">If you found typo you can <a href="https://github.com/eko24/eko24.github.io/blob/master/_posts/articles/2017-01-26-getting-started-with-html.md">edit this page</a> or
+    <a href="/about">contact me</a></p>
+</footer>
+
+        <footer>
+          <div class="page-meta">
+	<p>Updated: <time datetime="2017-01-26T00:00:00Z" itemprop="datePublished">03 of February / 2017</time></p>
+
+</div><!-- /.page-meta -->
+
+        </footer>
+				<aside>
+					
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+		
+	</article><!-- ./wrap -->
+</div><!-- /#main -->
+
+  <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+			<li><a href="/articles" >Articles</a></li>
+		
+      
+			<li><a href="/about" >About me</a></li>
+		
+      
+			<li><a href="/search" >Search</a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	 <p class="copyright">&#169; 2017 <a href="">Erik Kotsiuba</a></p>
+</footer>
+
+</div>
+
+
+
+
+<script src="/js/vendor/jquery-1.9.1.min.js"></script>
+<script src="/js/vendor/gifffer.min.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/plugins/ga.js"></script>
+
+</body>
+
+</html>

@@ -3,7 +3,7 @@
   "name": "eko24",
   "scripts": {
   	"start": "bundle exec jekyll serve -H 127.0.0.1 --drafts",
-  	"build": "bundle exec jekyll build"
+  	"build": "rm -rf ./_site && bundle exec jekyll build"
   },
   "devDependencies": {
     "grunt": "^1.0.1",

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="/atom.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-02-03T14:58:39+02:00</updated><id>//</id><title type="html">Erik Kotsiuba</title><subtitle>Tiny dev thoughts of big dev things.</subtitle><entry><title type="html">Getting started with HTML</title><link href="/articles/getting-started-with-html/" rel="alternate" type="text/html" title="Getting started with HTML" /><published>2017-01-26T00:00:00+02:00</published><updated>2017-01-26T00:00:00+02:00</updated><id>/articles/getting-started-with-html</id><content type="html" xml:base="/articles/getting-started-with-html/">&lt;p&gt;&lt;img src=&quot;/images/post/getting-started-with-html/html.jpg&quot; alt=&quot;HTML code screenshot for heading&quot; class=&quot;come-in&quot; /&gt;&lt;/p&gt;
+
+&lt;nav class=&quot;toc&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#what-is-html&quot; id=&quot;markdown-toc-what-is-html&quot;&gt;What is HTML&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#first-page&quot; id=&quot;markdown-toc-first-page&quot;&gt;First page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#basic-structure&quot; id=&quot;markdown-toc-basic-structure&quot;&gt;Basic structure&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-tags&quot; id=&quot;markdown-toc-the-tags&quot;&gt;The tags&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#watch-the-changes&quot; id=&quot;markdown-toc-watch-the-changes&quot;&gt;Watch the changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#headlines&quot; id=&quot;markdown-toc-headlines&quot;&gt;Headlines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#text-formatting&quot; id=&quot;markdown-toc-text-formatting&quot;&gt;Text formatting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#text-coloring&quot; id=&quot;markdown-toc-text-coloring&quot;&gt;Text coloring&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#links&quot; id=&quot;markdown-toc-links&quot;&gt;Links&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#conclusion&quot; id=&quot;markdown-toc-conclusion&quot;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/nav&gt;
+
+&lt;h1 id=&quot;what-is-html&quot;&gt;What is HTML&lt;/h1&gt;
+
+&lt;p&gt;Well HyperText Markup Language aka HTML is a language for creating web pages.  When you are surfing through the internet and visiting dozens websites with your browser you actually don’t see that HTML-code, but the way how browser “translates” it for you. Every web page you come across on the internet contains HTML code. Each image, video and music file are brought to you with help of HTML. Let’s take a better look on HTML and from what it’s made.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;For the sake of simplicity from henceforth and further I’ll be typing “html” abbreviation in lower case&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;first-page&quot;&gt;First page&lt;/h1&gt;
+
+&lt;p&gt;Les’s create our first html page !&lt;/p&gt;
+
+&lt;p&gt;I’ll be using &lt;a href=&quot;https://www.sublimetext.com/3&quot;&gt;Sublime Text 3&lt;/a&gt; to create files and edit code. 
+If you haven’t downloaded it yet - you can do this on their website, there are installations for Windows, Linux and OS X.&lt;br /&gt;
+But remember that you always can use editor which you wan’t to - this is totally okay !&lt;/p&gt;
+
+&lt;p data-gifffer-alt=&quot;Gif of creating html file&quot;&gt;&lt;img src=&quot;&quot; alt=&quot;Gif of creating html file&quot; data-gifffer=&quot;/images/post/getting-started-with-html/Sublime_Create_Html_File.gif&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;notice-info&quot;&gt;Remember to save your html files with &lt;code class=&quot;highlighter-rouge&quot;&gt;.html&lt;/code&gt; extension !&lt;/p&gt;
+
+&lt;p&gt;Than if we drag and drop our newly crafted html file into the browser we’ll see nothing but and empty page&lt;/p&gt;
+
+&lt;p data-gifffer-alt=&quot;Gif of dragging html file to the browser&quot;&gt;&lt;img src=&quot;&quot; alt=&quot;Gif of dragging html file to the browser&quot; data-gifffer=&quot;/images/post/getting-started-with-html/nuKHozv - Imgur.gif&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And the other way you can do it - is by right-click on html file and open it with browser you prefer&lt;/p&gt;
+
+&lt;p data-gifffer-alt=&quot;Gif of opening html file in browser with right click&quot;&gt;&lt;img src=&quot;&quot; alt=&quot;Gif of opening html file in browser with right click&quot; data-gifffer=&quot;/images/post/getting-started-with-html/ZCfR7lY - Imgur.gif&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;basic-structure&quot;&gt;Basic structure&lt;/h1&gt;
+&lt;p&gt;Even the simplest html page have some requirements to its structure.&lt;br /&gt;
+Long story short, let’s look at it:&lt;/p&gt;
+
+&lt;div id=&quot;sample-html-code&quot;&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Right, so this is the very basic html structure. You might be surprised with all that weird brackets and words - no problem, let’s split them up !&lt;/p&gt;
+
+&lt;h1 id=&quot;the-tags&quot;&gt;The tags&lt;/h1&gt;
+
+&lt;p&gt;First what we see is &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;&lt;/code&gt; - shortly, this how we describe the html that will be used in our page. You can get more info about it on &lt;a href=&quot;http://stackoverflow.com/a/414993/3472702&quot;&gt;this&lt;/a&gt; StackOverflow answer.&lt;/p&gt;
+
+&lt;p&gt;Then we see &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;&lt;/code&gt; tag, but please notice that we have same tag with slash in the end: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/html&amp;gt;&lt;/code&gt;.&lt;br /&gt;
+This is how most html tags works - they get “opened” &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;&lt;/code&gt; and closed &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/html&amp;gt;&lt;/code&gt;. We open them by putting in arrow brackets&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;like this&amp;gt;&lt;/code&gt; and close it to with arrow brackets but we add slash symbol: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/like this&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;But keep in mind that html have some self closing tags, which we don’t have to close, I’ll tell you about them a bit later.&lt;/p&gt;
+
+&lt;p&gt;One more thing about html tags is that they can be nested, which means we can put tag in the tag in the tag in the tag…&lt;br /&gt;
+You’ve got the idea.&lt;/p&gt;
+
+&lt;p&gt;So, everything what we’ll put between html tag is going to be processed with our browser.
+And and this point we just got ourselves to our first nested tag -  &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt;.
+Head tag it is just like &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;&lt;/code&gt; tag - not self closing, which means we have to close it on our own.&lt;/p&gt;
+
+&lt;p&gt;In html language &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; is responsible for many things like connecting style files and other code to our page and “talking” with browser.&lt;/p&gt;
+
+&lt;p&gt;And for now we only need the only one tag in head which is &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;title&amp;gt;&lt;/code&gt;.
+On &lt;a href=&quot;http://www.w3schools.com/tags/tag_title.asp&quot;&gt;W3C&lt;/a&gt; page we can see that&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;title&amp;gt;&lt;/code&gt; element defines a title in the browser toolbar&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And this is 100% right. Whe we put some text in the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;title&amp;gt;&lt;/code&gt; tag we see this text in the browser tab name.&lt;br /&gt;
+Let’s add some name for our webpage.&lt;/p&gt;
+
+&lt;h1 id=&quot;watch-the-changes&quot;&gt;Watch the changes&lt;/h1&gt;
+
+&lt;p&gt;So I wan’t you to put some text in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;title&amp;gt;&amp;lt;/title&amp;gt;&lt;/code&gt; tag, I’ll do it like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;title&amp;gt;My Website&amp;lt;/title&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;And then I’ll save changed I did by pressing hotkey &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + S&lt;/code&gt; - which as you may know saves changes we did to file.&lt;br /&gt;
+Now we can refresh browser page by hitting &lt;code class=&quot;highlighter-rouge&quot;&gt;F5&lt;/code&gt; in the browser, and look - we now have a name for our website !&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;/images/post/getting-started-with-html/title-tag-changes.png&quot; alt=&quot;simple page&quot; /&gt;
+	&lt;figcaption&gt;Easy, isn't it ?&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p class=&quot;notice-info&quot;&gt;&lt;span class=&quot;fa-stack fa-lg&quot;&gt;
+  &lt;i class=&quot;fa fa-circle fa-stack-2x&quot;&gt;&lt;/i&gt;
+  &lt;i class=&quot;fa fa-info fa-stack-1x info-text&quot;&gt;&lt;/i&gt;
+&lt;/span&gt;
+Don’t forget to save changes you did before you refresh browser page&lt;/p&gt;
+
+&lt;h1 id=&quot;headlines&quot;&gt;Headlines&lt;/h1&gt;
+
+&lt;p&gt;Now, when we get familiar with editing html code let’s move next to the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; tag.&lt;br /&gt;
+Usually all text and tags you place inside body can be seen by you or other users, except some cases when we wan’t to excplitcly hide our content.&lt;/p&gt;
+
+&lt;p&gt;So let’s begin with headlines. Headlines are used to define and divide sections of your website, they appear as big or even huge text, just like these which you can see in this post.&lt;/p&gt;
+
+&lt;p&gt;There are six headline tags in html - &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;...&amp;lt;/h1&amp;gt;&lt;/code&gt; is the biggest, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h6&amp;gt;...&amp;lt;/h6&amp;gt;&lt;/code&gt; is smallest, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h3&amp;gt;...&amp;lt;/h3&amp;gt;&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h4&amp;gt;...&amp;lt;/h4&amp;gt;&lt;/code&gt; are medium sized.&lt;/p&gt;
+
+&lt;p&gt;I’ll create huge headline with “Welcome to my website” text, so now my code looks like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;My Website&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Welcome to my website&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;And this is new look of my webpage&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post/getting-started-with-html/first_headline.png&quot; alt=&quot;Webpage with added headline&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Feel free to play with different size of headlines and don’t forget to save changes before refreshing your page and don’t forget to &lt;em&gt;&amp;lt;/close&amp;gt;&lt;/em&gt; tags !&lt;/p&gt;
+
+&lt;h1 id=&quot;text-formatting&quot;&gt;Text formatting&lt;/h1&gt;
+
+&lt;p&gt;It’s time to get familiar with text formatting in html, you’ll learn how create bold, italic and strike through text.&lt;br /&gt;
+Here is our heroes:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;bold text&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;b&amp;gt;...&amp;lt;/b&amp;gt;&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;italic text&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;i&amp;gt;...&amp;lt;/i&amp;gt;&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;strike through&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;s&amp;gt;...&amp;lt;/s&amp;gt;&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Let’s add this tags into the body with some text, we’ll see them on the page.&lt;/p&gt;
+
+&lt;p class=&quot;notice-info&quot;&gt;From now I’ll be using another presentation mode, so you have to click “Result” to see, ehm, result.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; src=&quot;//jsfiddle.net/eko24ive/bLbjqgef/2/embedded/html,result/&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;You see that text have different styles, but as you might notice - in html we wrote each tag on new line, but in the browser they are all on the same line, not okay !&lt;/p&gt;
+
+&lt;p&gt;The reason this happens is because browser ignores our line breaks, but don’t worry, html have appropriate solution for this:&lt;br /&gt;
+Our day saver is &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;br/&amp;gt;&lt;/code&gt; tag which stands for “break line”, and the other curious thing about it - &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;br/&amp;gt;&lt;/code&gt; is self closing tag. 
+I guess it is better just show you how it works:&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; src=&quot;//jsfiddle.net/eko24ive/7rem4g3o/1/embedded/html,result/&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Much better isn’t it ?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Well one thing I wan’t to clarify about self closing tags - is we actually “close” them but in another way. All we do is just adding slash symbol before right-looking arrow bracket, like &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;this/&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Try to place &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;br/&amp;gt;&lt;/code&gt; in different places in the body so you can get familiar with it:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;iframe width=&quot;100%&quot; height=&quot;300&quot; src=&quot;//jsfiddle.net/eko24ive/7rem4g3o/3/embedded/html,result/&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+	&lt;figcaption&gt;Yes, you can use as much line breakes as you want to !&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;text-coloring&quot;&gt;Text coloring&lt;/h1&gt;
+
+&lt;p&gt;Now when we know how to create html page, add some styling to our text, and write headlines of all sizes let’s play with texts color !&lt;/p&gt;
+
+&lt;p&gt;For this purpose we have tag called &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;font&amp;gt;...&amp;lt;font&amp;gt;&lt;/code&gt; which fortunately have comprehensive name.&lt;br /&gt;
+But nothing will happen if you’ll just wrap your text with font tag:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;font&amp;gt;&lt;/span&gt;You come to me, and you say: &quot;Don Fonteone, color my text.&quot; But you don't ask with respect&lt;span class=&quot;nt&quot;&gt;&amp;lt;/font&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Right, we need to tell that we want colored text and specify the color we want.&lt;br /&gt;
+In html this kind of things are possible with… attributes !&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; src=&quot;//jsfiddle.net/eko24ive/3cxvfL1w/1/embedded/html,result/&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;As you can see we use color attribute &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;font color=&quot;red&quot;&amp;gt;This is much better&amp;lt;/font&amp;gt;&lt;/code&gt; for the font tag.&lt;br /&gt;
+Attributes are placed in the opening tag, we don’t write them in the closing tag and certainly don’t close attributes, keep that in mind.&lt;/p&gt;
+
+&lt;p&gt;Attributes, themselves, have really simple structure they have &lt;code class=&quot;highlighter-rouge&quot;&gt;name=&quot;and value&quot;&lt;/code&gt;, nothing complex.&lt;/p&gt;
+
+&lt;p&gt;Oh, remember that tags can be nested ? Oh hell yeah they can !&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; src=&quot;//jsfiddle.net/eko24ive/eL62w8az/embedded/html,result/&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;But of course red color isn’t the only one you can use, you might type green, blue, purple - any color you want to.&lt;br /&gt;
+And here is link to the &lt;a href=&quot;http://www.w3schools.com/colors/colors_names.asp&quot;&gt;list of color names&lt;/a&gt; on W3C school website try some of them !&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;iframe width=&quot;100%&quot; height=&quot;300&quot; src=&quot;//jsfiddle.net/eko24ive/nsy1h4ow/embedded/html,result/&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+	&lt;figcaption&gt;It isn't hard when it comes to coloring Mika's lyrics !&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;links&quot;&gt;Links&lt;/h1&gt;
+
+&lt;p&gt;Let’s try something more interesting than just coloring text. Every webpage have links, which brings you to other website in the internet, so let’s add some !&lt;/p&gt;
+
+&lt;p&gt;Link could be created this way:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://google.com&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I'll take you to the&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Link have required &lt;code class=&quot;highlighter-rouge&quot;&gt;href&lt;/code&gt; attribute which tells where it leads, and between &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;...&amp;lt;/a&amp;gt;&lt;/code&gt; tags you write text which be displayed as link, like this:&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; src=&quot;//jsfiddle.net/eko24ive/jqj4bLt6/embedded/html,result/&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Also if you create another html file e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;second-page.html&lt;/code&gt; near your &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; file&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post/getting-started-with-html/another-file-created.png&quot; alt=&quot;Two html files in same folder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This way you can create link to &lt;code class=&quot;highlighter-rouge&quot;&gt;second-page.html&lt;/code&gt; :&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;./second-page.html&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Link to second page&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;Phew, this was a long ride, but you did it !&lt;br /&gt;
+At this point you now how to create formatted text, insert links, get text colored and use huge headlines.&lt;br /&gt;
+There’s more to come - in my further posts I’ll show you some other tags, techniques and Sublime Text 3 features.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned and thank you !&lt;/p&gt;</content><category term="html" /><summary type="html">Get started with web's markup language and learn how to create webpage.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/%7B%22teaser%22=%3E%22post-thumbnails/html-getting-started.jpg%22%7D" /></entry></feed>
