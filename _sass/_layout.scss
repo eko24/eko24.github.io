@@ -21,6 +21,17 @@ body {
 	.inner-wrap {
 		@include outer-container;
 	}
+  .logo {
+    height: .5 * $masthead-height;
+    width: .5 * $masthead-height;
+    position: relative;
+    top: .25 * $masthead-height;
+    margin-right: (1/6) * $masthead-height;
+    background: url(/images/assets/logo.png) no-repeat;
+    display: inline-block;
+    background-size: contain;
+    float: left;
+  }
 }
 .site-title {
 	@include row;
@@ -273,36 +284,40 @@ body {
 }
 // page header
 .page-feature {
-	@include fill-parent;
-	// expand image to cover full width of header
-	img {
-		width: 100%;
-	}
+  @include fill-parent;
+  // expand image to cover full width of header
+  img {
+    width: 100%;
+    @include filter(brightness(70%));
+  }
+
+  .feature-title {
+    position: absolute;
+    top: 3vh;
+    color: #fff;
+    left: 12vw;
+    font-size: 5vw;
+  }
+  // make image flush with edges on small screens
+  .page-image {
+    position: relative;
+    margin-left: -1 * $gutter;
+    margin-right: -1 * $gutter;
+  }
+
+  // feature image caption
+  .image-credit {
+    padding: 0 5px;
+    font-family: $alt-font;
+    @include font-size(9, no);
+    text-align: right;
+    z-index: 10;
+    a {
+      text-decoration: none;
+    }
+  }
 }
-// make image flush with edges on small screens
-.page-image {
-	position: relative;
-	margin-left: -1 * $gutter;
-	margin-right: -1 * $gutter;
-	// feature image caption
-	.image-credit {
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		margin: 0 auto;
-		padding: 10px 15px;
-		background-color: rgba($black,.5);
-		color: $white;
-		font-family: $alt-font;
-		@include font-size(12,no);
-		text-align: right;
-		z-index: 10;
-		a {
-			color: $white;
-			text-decoration: none;
-		}
-	}
-}
+
 
 /*
    Page footer

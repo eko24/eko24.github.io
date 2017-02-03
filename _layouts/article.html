@@ -7,14 +7,18 @@ layout: default
 		<div class="page-feature">
 			<div class="page-image">
 				<img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image">
-				{% if page.image.credit %}{% include image-credit.html %}{% endif %}
+        <h1 class="feature-title">{{ page.title }}</h1>
 			</div><!-- /.page-image -->
-		</div><!-- /.page-feature -->
+      {% if page.image.credit %}{% include image-credit.html %}{% endif %}
+    </div><!-- /.page-feature -->
+		{% else %}
+    <div class="page-title">
+      <h1>{{ page.title }}</h1>
+    </div>
 		{% endif %}
+
 		{% include breadcrumbs.html %}
-		<div class="page-title">
-			<h1>{{ page.title }}</h1>
-		</div>
+
 		<div class="inner-wrap">
 			<div id="content" class="page-content" itemprop="articleBody">
 				{{ content }}
